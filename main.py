@@ -38,7 +38,6 @@ def send_notification(price,name):
     server.quit()
 
 
-if __name__ == '__main__':
-    analyze_price(URL[0])
-    analyze_price(URL[1])
-    analyze_price(URL[2])
+analyze_price(URL[0])
+analyze_price(URL[1])
+analyze_price(URL[2])
