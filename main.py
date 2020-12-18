@@ -38,8 +38,7 @@ def send_notification(price,name):
     server.quit()
 
 
-while True:
+if __name__ == '__main__':
     analyze_price(URL[0])
     analyze_price(URL[1])
     analyze_price(URL[2])
-    time.sleep(60 * 60 * 24)
